@@ -1,0 +1,1557 @@
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Projects\DjangoTest\hello_django\locale with glob **/*.mo.
+Watching dir C:\Projects\DjangoTest\hello_django\web_app\locale with glob **/*.mo.
+Watching dir C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale with glob **/*.mo.
+Watching dir C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale with glob **/*.mo.
+Watching dir C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale with glob **/*.mo.
+Watching dir C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale with glob **/*.mo.
+Watching dir C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\messages\locale with glob **/*.mo.
+Watching dir C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\staticfiles\locale with glob **/*.mo.
+(0.000) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\apps\config.py first seen with mtime 1582073262.119918
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1582073265.381938
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\files\images.py first seen with mtime 1582073265.4009438
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\selector_events.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\__init__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\handlers\asgi.py first seen with mtime 1582073265.4079847
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\forms\renderers.py first seen with mtime 1582073265.6814332
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1582073265.564856
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\distutils\version.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\hello_django\hello_django\__init__.py first seen with mtime 1582073412.0206535
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1582073265.8294857
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\apps\registry.py first seen with mtime 1582073262.1204524
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1582073265.81956
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\streams.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\log.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\string.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\hello_django\web_app\views.py first seen with mtime 1582407217.697048
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\urls\utils.py first seen with mtime 1582073265.7765076
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\_weakrefset.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\models.py first seen with mtime 1582073264.9228601
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1582073265.4713178
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1582073265.5579422
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\forms.py first seen with mtime 1582073263.6670027
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\_parseaddr.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1582073266.2317915
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\wsgiref\__init__.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\forms.py first seen with mtime 1582073263.278121
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\base64.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1582073265.4631474
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\__init__.py first seen with mtime 1582073265.3751626
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1582073265.576402
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\conf\urls\static.py first seen with mtime 1582073262.4748912
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\query.py first seen with mtime 1582073265.5834036
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1582073266.1979535
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1582073265.8004127
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\http\__init__.py first seen with mtime 1582073265.7273178
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\encoding.py first seen with mtime 1582073265.7903647
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1582073263.2790792
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\encodings\aliases.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\__init__.py first seen with mtime 1582073265.7770188
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1582073262.4886148
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\backends\django.py first seen with mtime 1582073265.7510157
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1582073265.671376
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1582073265.6491492
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1582073265.630868
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1582073265.3839376
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\uuid.py first seen with mtime 1576733204.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\mime\base.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\psycopg2\_psycopg.cp38-win32.pyd first seen with mtime 1582092385.2398384
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\json\decoder.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1582073266.2132156
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1582073265.3974023
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\staticfiles\views.py first seen with mtime 1582073265.3691523
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\mime\__init__.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\quoprimime.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\base_futures.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1582073264.590146
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\queues.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1582073265.3963962
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1582073265.7841184
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\dates.py first seen with mtime 1582073265.7861183
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\transaction.py first seen with mtime 1582073265.4610393
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1582073265.4793222
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\http\cookie.py first seen with mtime 1582073265.7285116
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1582073265.4377587
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\safestring.py first seen with mtime 1582073265.8043728
+File C:\Projects\DjangoTest\env\Lib\site-packages\asgiref\sync.py first seen with mtime 1582073266.0325067
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1582073265.3934312
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1582073265.8013742
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\generic\base.py first seen with mtime 1582073265.8265016
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\cgi.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\http\request.py first seen with mtime 1582073265.7293172
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\genericpath.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1582073265.4688272
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\defaults.py first seen with mtime 1582073265.817558
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\contextvars.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1582073265.8254654
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1582073266.211165
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1582073265.3889375
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\feedparser.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1582073264.9193456
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1582073265.4678283
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\importlib\abc.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\_ssl.pyd first seen with mtime 1576733214.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\cli.py first seen with mtime 1582073266.202946
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\numbers.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1582073265.4542425
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\postgresql\operations.py first seen with mtime 1582073265.533813
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\encodings\__init__.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\staggered.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\validators.py first seen with mtime 1582073265.3809836
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\wsgiref\headers.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1582073265.827757
+File C:\Projects\DjangoTest\env\Lib\site-packages\pytz\tzfile.py first seen with mtime 1582073266.6317897
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\queue.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\_socket.pyd first seen with mtime 1576733212.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\signal.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\views.py first seen with mtime 1582073263.6690035
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\__init__.py first seen with mtime 1582073265.7383187
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1582073265.404979
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\forms\widgets.py first seen with mtime 1582073265.684374
+File C:\Projects\DjangoTest\env\Lib\site-packages\PIL\_binary.py first seen with mtime 1582093047.1964765
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1582073265.474275
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\selectors.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\PIL\ImageMode.py first seen with mtime 1582093047.1484237
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\postgresql\introspection.py first seen with mtime 1582073265.5322363
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\base_tasks.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\management\color.py first seen with mtime 1582073265.4217255
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1582073265.458211
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\signals.py first seen with mtime 1582073265.585399
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\html\__init__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1582073265.573598
+File C:\Projects\DjangoTest\env\Lib\site-packages\pytz\__init__.py first seen with mtime 1582073266.6240711
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\collections\abc.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1582073262.4768753
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\shortcuts.py first seen with mtime 1582073262.1179197
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\html\entities.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\translation\reloader.py first seen with mtime 1582073265.8115602
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1582073264.5838938
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\header.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1582073265.6401453
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1582073266.227518
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1582073265.8034124
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1582073265.4079847
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\formats.py first seen with mtime 1582073265.792412
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\importlib\__init__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1582073265.8229177
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\wsgiref\util.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1582073265.4069424
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\tempfile.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\typing.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1582073265.3621147
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1582073265.4131
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1582073265.577964
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\shutil.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\templatetags\static.py first seen with mtime 1582073265.7619789
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1582073265.7801042
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\datetime.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\manager.py first seen with mtime 1582073265.5803638
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\_bz2.pyd first seen with mtime 1576733212.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\re.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1582073265.7789886
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\version.py first seen with mtime 1582073265.8094072
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\concurrent\futures\_base.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\http\client.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\encoders.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\_bootlocale.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1582073265.7293172
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\mime\multipart.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1582073266.2251136
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\wsgi.py first seen with mtime 1582073265.3816993
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\response.py first seen with mtime 1582073265.7481685
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1582073265.7750335
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\headerregistry.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1582073265.6337566
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\select.pyd first seen with mtime 1576733212.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\PIL\TiffTags.py first seen with mtime 1582093047.1884239
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1582073262.4778383
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\logging\__init__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1582073265.7313206
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\locale.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1582073266.216594
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\exceptions.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\forms\__init__.py first seen with mtime 1582073265.6743748
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\forms\models.py first seen with mtime 1582073265.6804085
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\files\utils.py first seen with mtime 1582073265.4060597
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\json\__init__.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\_decimal.pyd first seen with mtime 1576733214.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1582073262.4848413
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\duration.py first seen with mtime 1582073265.7903647
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\operator.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\mime\nonmultipart.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1582073262.4818032
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1582073266.2195847
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\windows_utils.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\sslproto.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\baseconv.py first seen with mtime 1582073265.7812085
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1582073262.4828513
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1582073266.2231193
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\forms\formsets.py first seen with mtime 1582073265.6794107
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1582073265.4726346
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1582073263.2700806
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\urllib\error.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1582073262.4758017
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\postgresql\features.py first seen with mtime 1582073265.5308099
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\_queue.pyd first seen with mtime 1576733212.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1582073262.4788022
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\postgresql\client.py first seen with mtime 1582073265.5279894
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\_compression.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\errors.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\_header_value_parser.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\itercompat.py first seen with mtime 1582073265.7987223
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1582073262.9909568
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\files\locks.py first seen with mtime 1582073265.4019942
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\urls\base.py first seen with mtime 1582073265.7720244
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\urllib\__init__.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1582073265.4754603
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\bz2.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\generic\list.py first seen with mtime 1582073265.8294857
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\compat.py first seen with mtime 1582073266.2049873
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\urls\__init__.py first seen with mtime 1582073265.7710435
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\log.py first seen with mtime 1582073265.8004127
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1582073265.463863
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\http\response.py first seen with mtime 1582073265.7303512
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\importlib\util.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\files\move.py first seen with mtime 1582073265.4027624
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1582073265.3641567
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1582073265.6574104
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\pkgutil.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py first seen with mtime 1582073265.372151
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1582073265.631742
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\secrets.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\hello_django\web_app\__init__.py first seen with mtime 1582086967.1783283
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\trsock.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\mail\message.py first seen with mtime 1582073265.4120994
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\_os.py first seen with mtime 1582073265.7780268
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\models.py first seen with mtime 1582073262.483803
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\tree.py first seen with mtime 1582073265.8090677
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\urllib\request.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1582073265.4522495
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1582073265.64475
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1582073265.8023717
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1582073265.4648266
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1582073265.6431782
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\signals.py first seen with mtime 1582073265.3793883
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1582073265.7422032
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\opcode.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\quopri.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\postgresql\schema.py first seen with mtime 1582073265.534847
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\backends\base.py first seen with mtime 1582073265.7510157
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\inspect.py first seen with mtime 1582073265.7968018
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sites\shortcuts.py first seen with mtime 1582073265.1731033
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\stat.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\pytz\lazy.py first seen with mtime 1582073266.626115
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\codecs.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\http.py first seen with mtime 1582073265.7953737
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1582073265.410083
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\gettext.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\parser.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1582073266.2089398
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\smartif.py first seen with mtime 1582073265.7481685
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1582073265.637041
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\base_subprocess.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\asgiref\__init__.py first seen with mtime 1582073266.019225
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1582073263.8376262
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\timesince.py first seen with mtime 1582073265.8063722
+File C:\Projects\DjangoTest\env\Lib\site-packages\psycopg2\_ipaddress.py first seen with mtime 1582092385.2036319
+File C:\Projects\DjangoTest\hello_django\hello_django\urls.py first seen with mtime 1582094174.4626012
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\constants.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\psycopg2\errorcodes.py first seen with mtime 1582092385.2447948
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\urllib\response.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\psycopg2\extensions.py first seen with mtime 1582092385.246794
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\__init__.py first seen with mtime 1582073265.4598439
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\sql.py first seen with mtime 1582073266.2152717
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\events.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1582073265.563862
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1582073265.4572482
+File C:\Projects\DjangoTest\env\Lib\site-packages\psycopg2\_range.py first seen with mtime 1582092385.2417922
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1582073263.6640391
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\context.py first seen with mtime 1582073265.7401912
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\locks.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\_policybase.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\encodings\latin_1.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\operations\utils.py first seen with mtime 1582073265.566847
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1582073263.2743201
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\generator.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\collections\__init__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\i18n.py first seen with mtime 1582073265.8185594
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\unicodedata.pyd first seen with mtime 1576733214.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\loader.py first seen with mtime 1582073265.7464821
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\__init__.py first seen with mtime 1582073265.8145583
+File C:\Projects\DjangoTest\hello_django\web_app\apps.py first seen with mtime 1582086967.1573782
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\struct.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\charset.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1582073266.2291124
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\pathlib.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1582073265.5484874
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1582073265.6296525
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\subprocess.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\base_session.py first seen with mtime 1582073264.919959
+File C:\Projects\DjangoTest\env\Lib\site-packages\PIL\_util.py first seen with mtime 1582093047.2220685
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\decimal.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\utils.py first seen with mtime 1582073265.5863993
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1582073265.6596055
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1582073266.221183
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1582073263.6404257
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\hmac.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1582073265.7881181
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\urllib\parse.py first seen with mtime 1576733204.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\random.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\http\server.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\proactor_events.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\nturl2path.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1582073265.4518175
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1582073265.785119
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\transports.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1582073263.6610377
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\models.py first seen with mtime 1582073263.6680086
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1582073265.5658102
+File C:\Projects\DjangoTest\env\Lib\site-packages\psycopg2\__init__.py first seen with mtime 1582092385.2015877
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1582073265.4060597
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\decorators.py first seen with mtime 1582073265.788885
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\sre_parse.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1582073265.8145583
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1582073265.638744
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\fnmatch.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\models.py first seen with mtime 1582073263.284384
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\platform.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\constants.py first seen with mtime 1582073265.572367
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1582073265.3631501
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\linecache.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\_overlapped.pyd first seen with mtime 1576733212.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1582073265.4702792
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\tokens.py first seen with mtime 1582073263.2898214
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\windows_events.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\subprocess.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\enum.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\_lzma.pyd first seen with mtime 1576733214.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1582073265.3948889
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1582073265.3954334
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\os.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\site.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\format_helpers.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\contentmanager.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1582073262.9958458
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\http\cookies.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\psycopg2\extras.py first seen with mtime 1582092385.2486916
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1582073262.4768753
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\io.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1582073265.569811
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\library.py first seen with mtime 1582073265.7452028
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\postgresql\utils.py first seen with mtime 1582073265.5358489
+File C:\Projects\DjangoTest\hello_django\web_app\models.py first seen with mtime 1582406346.0140123
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\files\base.py first seen with mtime 1582073265.3999648
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\conf\urls\__init__.py first seen with mtime 1582073262.4738033
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\pickle.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\futures.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1582073264.5849297
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\ctypes\_endian.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\html\parser.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\exceptions.py first seen with mtime 1582073265.37732
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\wsgiref\handlers.py first seen with mtime 1576733204.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\dis.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\files\storage.py first seen with mtime 1582073265.4029443
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1582073265.3993783
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1582073265.5844014
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1582073263.6630425
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1582073265.3934312
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1582073265.6276445
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\_sitebuiltins.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\concurrent\__init__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\validators.py first seen with mtime 1582073263.2938204
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1582073263.2710795
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1582073265.4773383
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\utils.py first seen with mtime 1582073265.7494273
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\_collections_abc.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\coroutines.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1582073265.7973733
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\text.py first seen with mtime 1582073265.805799
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1582073265.6347413
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\uu.py first seen with mtime 1576733204.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\encodings\cp1252.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1582073265.5784204
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1582073265.7499883
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1582073262.4798374
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\timezone.py first seen with mtime 1582073265.8073854
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\copyreg.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\mime\text.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\copy.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\types.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1582073265.78912
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\difflib.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1582073265.408944
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1582073265.8284638
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\sre_compile.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1582073266.0233183
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1582073265.8115602
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1582073265.6514232
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1582073263.2888172
+File C:\Projects\DjangoTest\hello_django\web_app\admin.py first seen with mtime 1582405371.6883626
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\utils.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\pytz\tzinfo.py first seen with mtime 1582073266.6337392
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1582073265.8205936
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\files\temp.py first seen with mtime 1582073265.404634
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\_ctypes.pyd first seen with mtime 1576733214.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1582073265.8214655
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\protocols.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1582073264.5834038
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1582073265.3917255
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\encodings\utf_8.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\base_events.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1582073262.9940417
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\pprint.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\socketserver.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1582073265.5528467
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\abc.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1582073262.130252
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\exceptions.py first seen with mtime 1582073265.7452028
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\mimetypes.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\management\base.py first seen with mtime 1582073265.4208558
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\keyword.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\datetime_safe.py first seen with mtime 1582073265.7871187
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\conf\__init__.py first seen with mtime 1582073262.1222482
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1582073265.3641567
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\lzma.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1582073265.465891
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\forms\fields.py first seen with mtime 1582073265.676405
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\gzip.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\_encoded_words.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1582073262.4858387
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\logging\config.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1582073265.4200716
+File C:\Projects\DjangoTest\env\Lib\site-packages\pytz\exceptions.py first seen with mtime 1582073266.6250699
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\__init__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1582073262.4808912
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\utils.py first seen with mtime 1582073266.2182164
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\wsgiref\simple_server.py first seen with mtime 1576733204.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\_compat_pickle.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\topological_sort.py first seen with mtime 1582073265.8084092
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\apps\__init__.py first seen with mtime 1582073262.1189744
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\forms\utils.py first seen with mtime 1582073265.6824076
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1582073265.4502475
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\ssl.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1582073263.2868178
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\_asyncio.pyd first seen with mtime 1576733212.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\ntpath.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\urls\converters.py first seen with mtime 1582073265.7729883
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\hashlib.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1582073265.8043728
+File C:\Projects\DjangoTest\env\Lib\site-packages\asgiref\local.py first seen with mtime 1582073266.0253024
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1582073265.4110706
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1582073266.2298505
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\enums.py first seen with mtime 1582073265.5756893
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\threading.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1582073265.7609766
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1582073265.641191
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\socket.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1582073265.562811
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1582073265.7589786
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\staticfiles\handlers.py first seen with mtime 1582073265.3658934
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1582073265.5618103
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1582073265.5743995
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\html.py first seen with mtime 1582073265.7953737
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\forms\forms.py first seen with mtime 1582073265.6783729
+File C:\Projects\DjangoTest\env\Lib\site-packages\PIL\__init__.py first seen with mtime 1582093047.194462
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\admin.py first seen with mtime 1582073263.6620035
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\base.py first seen with mtime 1582073265.5714002
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\policy.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\admin.py first seen with mtime 1582073263.2700806
+File C:\Projects\DjangoTest\env\Lib\site-packages\psycopg2\compat.py first seen with mtime 1582092385.243755
+File C:\Projects\DjangoTest\hello_django\web_app\urls.py first seen with mtime 1582402615.454907
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\crypto.py first seen with mtime 1582073265.7831197
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1582073266.206934
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\distutils\__init__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1582073264.917902
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1582073265.5678103
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\functional.py first seen with mtime 1582073265.793372
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\postgresql\creation.py first seen with mtime 1582073265.528814
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\logging\handlers.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\message.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\tasks.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\hashable.py first seen with mtime 1582073265.7944026
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\tokenize.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1582073265.628612
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\heapq.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\traceback.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\database.py first seen with mtime 1582073265.390422
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\importlib\machinery.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\argparse.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\signing.py first seen with mtime 1582073265.3799639
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\http\__init__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1582073265.3839376
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1582073265.3924303
+File C:\Projects\DjangoTest\env\Lib\site-packages\PIL\Image.py first seen with mtime 1582093047.1350896
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\warnings.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1582073262.4868226
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1582073265.3983963
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1582073265.6692095
+File C:\Projects\DjangoTest\env\Lib\site-packages\psycopg2\_json.py first seen with mtime 1582092385.2060888
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1582073265.6672125
+File C:\Projects\DjangoTest\env\Lib\site-packages\psycopg2\errors.py first seen with mtime 1582092385.2463448
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\ctypes\__init__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1582073262.1232862
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\DLLs\_hashlib.pyd first seen with mtime 1576733212.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1582073263.2730796
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\ctypes\wintypes.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\PIL\_imaging.cp38-win32.pyd first seen with mtime 1582093047.2110682
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1582073265.390422
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1582073266.226151
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\debug.py first seen with mtime 1582073265.8165584
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1582073265.64619
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\_markupbase.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\__future__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1582073265.743592
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1582073266.2320206
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1582073264.581892
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1582073265.7841184
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\token.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\psycopg2\tz.py first seen with mtime 1582092385.2522197
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1582073265.663169
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1582073265.3691523
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1582073265.7750335
+File C:\Projects\DjangoTest\env\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1582073266.2281108
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\utils.py first seen with mtime 1582073265.4618647
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\json\scanner.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\bisect.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\postgresql\base.py first seen with mtime 1582073265.525817
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\concurrent\futures\thread.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1582073265.7471962
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\sre_constants.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\hello_django\hello_django\settings.py first seen with mtime 1582409125.6991842
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1582073265.6753736
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\__init__.py first seen with mtime 1582073262.1159208
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\mime\message.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\json\encoder.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\backends\postgresql\__init__.py first seen with mtime 1582073265.5248208
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\getpass.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\base64mime.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\inspect.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1582073265.6651762
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\options.py first seen with mtime 1582073265.581676
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\views\static.py first seen with mtime 1582073265.8185594
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1582073265.5458632
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\calendar.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\paginator.py first seen with mtime 1582073265.3781338
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\weakref.py first seen with mtime 1576733204.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sites\__init__.py first seen with mtime 1582073265.163059
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\middleware\cache.py first seen with mtime 1582073265.7323527
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\base.py first seen with mtime 1582073265.739352
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\utils\cache.py first seen with mtime 1582073265.7821188
+File C:\Projects\DjangoTest\hello_django\manage.py first seen with mtime 1582073411.9741745
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\email\iterators.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\engine.py first seen with mtime 1582073265.7441933
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1582073265.7343433
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\asyncio\runners.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\posixpath.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\reprlib.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\urls\conf.py first seen with mtime 1582073265.7729883
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\ipaddress.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\contextlib.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\fields.py first seen with mtime 1582073263.6652436
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1582073262.99688
+File C:\Projects\DjangoTest\env\Lib\site-packages\PIL\_version.py first seen with mtime 1582093047.2230632
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\functools.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\concurrent\futures\__init__.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1582073265.3975892
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\af\LC_MESSAGES\django.mo first seen with mtime 1582073262.4895833
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\af\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.4908228
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\am\LC_MESSAGES\django.mo first seen with mtime 1582073262.4927886
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ar\LC_MESSAGES\django.mo first seen with mtime 1582073262.495788
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ar\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.4967873
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ast\LC_MESSAGES\django.mo first seen with mtime 1582073262.4988217
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ast\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5009973
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\az\LC_MESSAGES\django.mo first seen with mtime 1582073262.502822
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\az\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5047877
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\be\LC_MESSAGES\django.mo first seen with mtime 1582073262.505983
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\be\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5077887
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\bg\LC_MESSAGES\django.mo first seen with mtime 1582073262.509936
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\bg\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5117874
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\bn\LC_MESSAGES\django.mo first seen with mtime 1582073262.5140057
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\bn\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.515787
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\br\LC_MESSAGES\django.mo first seen with mtime 1582073262.5177903
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\br\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5187864
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\bs\LC_MESSAGES\django.mo first seen with mtime 1582073262.5207882
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\bs\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5227873
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ca\LC_MESSAGES\django.mo first seen with mtime 1582073262.5247877
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ca\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5267878
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\cs\LC_MESSAGES\django.mo first seen with mtime 1582073262.5280392
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\cs\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5298808
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\cy\LC_MESSAGES\django.mo first seen with mtime 1582073262.5318024
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\cy\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5328033
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\da\LC_MESSAGES\django.mo first seen with mtime 1582073262.5348034
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\da\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.536803
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\de\LC_MESSAGES\django.mo first seen with mtime 1582073262.5388236
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\de\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5408373
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\dsb\LC_MESSAGES\django.mo first seen with mtime 1582073262.542802
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\dsb\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5448039
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\el\LC_MESSAGES\django.mo first seen with mtime 1582073262.5458016
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\el\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5478387
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\en\LC_MESSAGES\django.mo first seen with mtime 1582073262.5498016
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\en\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5518405
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\en_AU\LC_MESSAGES\django.mo first seen with mtime 1582073262.5538032
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\en_AU\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5548034
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\en_GB\LC_MESSAGES\django.mo first seen with mtime 1582073262.556838
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\en_GB\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5590136
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\eo\LC_MESSAGES\django.mo first seen with mtime 1582073262.5608022
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\eo\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5628412
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\es\LC_MESSAGES\django.mo first seen with mtime 1582073262.564837
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\es\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5658393
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\es_AR\LC_MESSAGES\django.mo first seen with mtime 1582073262.5678036
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\es_AR\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.56984
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\es_CO\LC_MESSAGES\django.mo first seen with mtime 1582073262.571838
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\es_CO\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.573802
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\es_MX\LC_MESSAGES\django.mo first seen with mtime 1582073262.5758033
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\es_MX\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5778012
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\es_VE\LC_MESSAGES\django.mo first seen with mtime 1582073262.5798395
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\es_VE\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5808032
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\et\LC_MESSAGES\django.mo first seen with mtime 1582073262.582802
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\et\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5850449
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\eu\LC_MESSAGES\django.mo first seen with mtime 1582073262.5868394
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\eu\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5878038
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\fa\LC_MESSAGES\django.mo first seen with mtime 1582073262.589852
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\fa\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5918527
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\fi\LC_MESSAGES\django.mo first seen with mtime 1582073262.5938146
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\fi\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5948145
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\fr\LC_MESSAGES\django.mo first seen with mtime 1582073262.5968525
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\fr\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.5988424
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\fy\LC_MESSAGES\django.mo first seen with mtime 1582073262.6012583
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\fy\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.602296
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ga\LC_MESSAGES\django.mo first seen with mtime 1582073262.6047387
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ga\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.606257
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\gd\LC_MESSAGES\django.mo first seen with mtime 1582073262.6082563
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\gd\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6099691
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\gl\LC_MESSAGES\django.mo first seen with mtime 1582073262.6119487
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\gl\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6141424
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\he\LC_MESSAGES\django.mo first seen with mtime 1582073262.61516
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\he\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6171405
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\hi\LC_MESSAGES\django.mo first seen with mtime 1582073262.6191387
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\hi\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6211388
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\hr\LC_MESSAGES\django.mo first seen with mtime 1582073262.623176
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\hr\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6242943
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\hsb\LC_MESSAGES\django.mo first seen with mtime 1582073262.6261394
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\hsb\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.628174
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\hu\LC_MESSAGES\django.mo first seen with mtime 1582073262.6291382
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\hu\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6314158
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\hy\LC_MESSAGES\django.mo first seen with mtime 1582073262.6333768
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\hy\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6353748
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ia\LC_MESSAGES\django.mo first seen with mtime 1582073262.6366773
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ia\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6386762
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\id\LC_MESSAGES\django.mo first seen with mtime 1582073262.6403756
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\id\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.642382
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\io\LC_MESSAGES\django.mo first seen with mtime 1582073262.6438062
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\io\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6453779
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\is\LC_MESSAGES\django.mo first seen with mtime 1582073262.648379
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\is\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6516392
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\it\LC_MESSAGES\django.mo first seen with mtime 1582073262.657411
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\it\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6594155
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ja\LC_MESSAGES\django.mo first seen with mtime 1582073262.6617253
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ja\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6626904
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ka\LC_MESSAGES\django.mo first seen with mtime 1582073262.665691
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ka\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6666915
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\kab\LC_MESSAGES\django.mo first seen with mtime 1582073262.668689
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\kab\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.670691
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\kk\LC_MESSAGES\django.mo first seen with mtime 1582073262.673726
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\kk\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6746907
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\km\LC_MESSAGES\django.mo first seen with mtime 1582073262.677691
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\km\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6796913
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\kn\LC_MESSAGES\django.mo first seen with mtime 1582073262.6814473
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\kn\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6832042
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ko\LC_MESSAGES\django.mo first seen with mtime 1582073262.6852252
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ko\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.687238
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\lb\LC_MESSAGES\django.mo first seen with mtime 1582073262.6892335
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\lb\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.690596
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\lt\LC_MESSAGES\django.mo first seen with mtime 1582073262.6933904
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\lt\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6943564
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\lv\LC_MESSAGES\django.mo first seen with mtime 1582073262.6973557
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\lv\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.6993563
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\mk\LC_MESSAGES\django.mo first seen with mtime 1582073262.7013547
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\mk\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.703354
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ml\LC_MESSAGES\django.mo first seen with mtime 1582073262.7053564
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ml\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7073903
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\mn\LC_MESSAGES\django.mo first seen with mtime 1582073262.7093563
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\mn\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7112858
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\mr\LC_MESSAGES\django.mo first seen with mtime 1582073262.7132854
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\mr\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7142868
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\my\LC_MESSAGES\django.mo first seen with mtime 1582073262.716285
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\my\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7182872
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\nb\LC_MESSAGES\django.mo first seen with mtime 1582073262.7212868
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\nb\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7232878
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ne\LC_MESSAGES\django.mo first seen with mtime 1582073262.7252858
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ne\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7272868
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\nl\LC_MESSAGES\django.mo first seen with mtime 1582073262.7292867
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\nl\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7311938
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\nn\LC_MESSAGES\django.mo first seen with mtime 1582073262.7331948
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\nn\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.735195
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\os\LC_MESSAGES\django.mo first seen with mtime 1582073262.7372081
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\os\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7391949
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\pa\LC_MESSAGES\django.mo first seen with mtime 1582073262.7411942
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\pa\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7431948
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\pl\LC_MESSAGES\django.mo first seen with mtime 1582073262.7452302
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\pl\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7471938
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\pt\LC_MESSAGES\django.mo first seen with mtime 1582073262.7491941
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\pt\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.752311
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\pt_BR\LC_MESSAGES\django.mo first seen with mtime 1582073262.7541957
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\pt_BR\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7561936
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ro\LC_MESSAGES\django.mo first seen with mtime 1582073262.7581937
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ro\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7612467
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ru\LC_MESSAGES\django.mo first seen with mtime 1582073262.7632835
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ru\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7652838
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sk\LC_MESSAGES\django.mo first seen with mtime 1582073262.767247
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sk\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7698355
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sl\LC_MESSAGES\django.mo first seen with mtime 1582073262.7718248
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sl\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7729485
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sq\LC_MESSAGES\django.mo first seen with mtime 1582073262.775814
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sq\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7778125
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sr\LC_MESSAGES\django.mo first seen with mtime 1582073262.7798488
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sr\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7808135
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sr_Latn\LC_MESSAGES\django.mo first seen with mtime 1582073262.7828476
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sr_Latn\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.784816
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sv\LC_MESSAGES\django.mo first seen with mtime 1582073262.7870767
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sv\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.789148
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sw\LC_MESSAGES\django.mo first seen with mtime 1582073262.791122
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\sw\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.792122
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ta\LC_MESSAGES\django.mo first seen with mtime 1582073262.7951226
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ta\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.7961636
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\te\LC_MESSAGES\django.mo first seen with mtime 1582073262.798254
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\te\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.8002138
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\th\LC_MESSAGES\django.mo first seen with mtime 1582073262.8022516
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\th\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.8042316
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\tr\LC_MESSAGES\django.mo first seen with mtime 1582073262.8062272
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\tr\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.8085752
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\tt\LC_MESSAGES\django.mo first seen with mtime 1582073262.80982
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\tt\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.8121789
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\udm\LC_MESSAGES\django.mo first seen with mtime 1582073262.8138084
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\udm\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.8148093
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\uk\LC_MESSAGES\django.mo first seen with mtime 1582073262.816809
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\uk\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.817844
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ur\LC_MESSAGES\django.mo first seen with mtime 1582073262.8198075
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\ur\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.821843
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\uz\LC_MESSAGES\django.mo first seen with mtime 1582073262.8239667
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\uz\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.8258078
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\vi\LC_MESSAGES\django.mo first seen with mtime 1582073262.827809
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\vi\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.8298087
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\zh_Hans\LC_MESSAGES\django.mo first seen with mtime 1582073262.8311126
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\zh_Hans\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.832848
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\zh_Hant\LC_MESSAGES\django.mo first seen with mtime 1582073262.8349075
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\admin\locale\zh_Hant\LC_MESSAGES\djangojs.mo first seen with mtime 1582073262.8368087
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\af\LC_MESSAGES\django.mo first seen with mtime 1582073263.3019044
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ar\LC_MESSAGES\django.mo first seen with mtime 1582073263.3058872
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ast\LC_MESSAGES\django.mo first seen with mtime 1582073263.308848
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\az\LC_MESSAGES\django.mo first seen with mtime 1582073263.313061
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\be\LC_MESSAGES\django.mo first seen with mtime 1582073263.3160186
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\bg\LC_MESSAGES\django.mo first seen with mtime 1582073263.3190167
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\bn\LC_MESSAGES\django.mo first seen with mtime 1582073263.323017
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\br\LC_MESSAGES\django.mo first seen with mtime 1582073263.326019
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\bs\LC_MESSAGES\django.mo first seen with mtime 1582073263.3290186
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ca\LC_MESSAGES\django.mo first seen with mtime 1582073263.3319702
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\cs\LC_MESSAGES\django.mo first seen with mtime 1582073263.3349314
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\cy\LC_MESSAGES\django.mo first seen with mtime 1582073263.33697
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\da\LC_MESSAGES\django.mo first seen with mtime 1582073263.3399322
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\de\LC_MESSAGES\django.mo first seen with mtime 1582073263.3429337
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\dsb\LC_MESSAGES\django.mo first seen with mtime 1582073263.345934
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\el\LC_MESSAGES\django.mo first seen with mtime 1582073263.3489335
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\en\LC_MESSAGES\django.mo first seen with mtime 1582073263.351972
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\en_AU\LC_MESSAGES\django.mo first seen with mtime 1582073263.3549316
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\en_GB\LC_MESSAGES\django.mo first seen with mtime 1582073263.3580153
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\eo\LC_MESSAGES\django.mo first seen with mtime 1582073263.3624003
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\es\LC_MESSAGES\django.mo first seen with mtime 1582073263.3663995
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\es_AR\LC_MESSAGES\django.mo first seen with mtime 1582073263.3698535
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\es_CO\LC_MESSAGES\django.mo first seen with mtime 1582073263.374161
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\es_MX\LC_MESSAGES\django.mo first seen with mtime 1582073263.3778632
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\es_VE\LC_MESSAGES\django.mo first seen with mtime 1582073263.3810458
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\et\LC_MESSAGES\django.mo first seen with mtime 1582073263.3850443
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\eu\LC_MESSAGES\django.mo first seen with mtime 1582073263.3901935
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\fa\LC_MESSAGES\django.mo first seen with mtime 1582073263.3937702
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\fi\LC_MESSAGES\django.mo first seen with mtime 1582073263.3982277
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\fr\LC_MESSAGES\django.mo first seen with mtime 1582073263.4027987
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\fy\LC_MESSAGES\django.mo first seen with mtime 1582073263.4077978
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ga\LC_MESSAGES\django.mo first seen with mtime 1582073263.4122462
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\gd\LC_MESSAGES\django.mo first seen with mtime 1582073263.417185
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\gl\LC_MESSAGES\django.mo first seen with mtime 1582073263.4219687
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\he\LC_MESSAGES\django.mo first seen with mtime 1582073263.4259806
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\hi\LC_MESSAGES\django.mo first seen with mtime 1582073263.4309509
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\hr\LC_MESSAGES\django.mo first seen with mtime 1582073263.435984
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\hsb\LC_MESSAGES\django.mo first seen with mtime 1582073263.4400122
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\hu\LC_MESSAGES\django.mo first seen with mtime 1582073263.4429183
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\hy\LC_MESSAGES\django.mo first seen with mtime 1582073263.4459202
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ia\LC_MESSAGES\django.mo first seen with mtime 1582073263.4489212
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\id\LC_MESSAGES\django.mo first seen with mtime 1582073263.4524536
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\io\LC_MESSAGES\django.mo first seen with mtime 1582073263.4554534
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\is\LC_MESSAGES\django.mo first seen with mtime 1582073263.4584541
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\it\LC_MESSAGES\django.mo first seen with mtime 1582073263.4606435
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ja\LC_MESSAGES\django.mo first seen with mtime 1582073263.4646401
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ka\LC_MESSAGES\django.mo first seen with mtime 1582073263.4666798
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\kab\LC_MESSAGES\django.mo first seen with mtime 1582073263.4700167
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\kk\LC_MESSAGES\django.mo first seen with mtime 1582073263.473004
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\km\LC_MESSAGES\django.mo first seen with mtime 1582073263.4759855
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\kn\LC_MESSAGES\django.mo first seen with mtime 1582073263.4801347
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ko\LC_MESSAGES\django.mo first seen with mtime 1582073263.4840426
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\lb\LC_MESSAGES\django.mo first seen with mtime 1582073263.4870875
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\lt\LC_MESSAGES\django.mo first seen with mtime 1582073263.4900389
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\lv\LC_MESSAGES\django.mo first seen with mtime 1582073263.4940958
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\mk\LC_MESSAGES\django.mo first seen with mtime 1582073263.4970412
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ml\LC_MESSAGES\django.mo first seen with mtime 1582073263.5016875
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\mn\LC_MESSAGES\django.mo first seen with mtime 1582073263.5046384
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\mr\LC_MESSAGES\django.mo first seen with mtime 1582073263.5086894
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\my\LC_MESSAGES\django.mo first seen with mtime 1582073263.5129325
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\nb\LC_MESSAGES\django.mo first seen with mtime 1582073263.5159748
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ne\LC_MESSAGES\django.mo first seen with mtime 1582073263.5199313
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\nl\LC_MESSAGES\django.mo first seen with mtime 1582073263.5229328
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\nn\LC_MESSAGES\django.mo first seen with mtime 1582073263.5249295
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\os\LC_MESSAGES\django.mo first seen with mtime 1582073263.5828936
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\pa\LC_MESSAGES\django.mo first seen with mtime 1582073263.584895
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\pl\LC_MESSAGES\django.mo first seen with mtime 1582073263.5868473
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\pt\LC_MESSAGES\django.mo first seen with mtime 1582073263.5898488
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\pt_BR\LC_MESSAGES\django.mo first seen with mtime 1582073263.5918941
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ro\LC_MESSAGES\django.mo first seen with mtime 1582073263.593849
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ru\LC_MESSAGES\django.mo first seen with mtime 1582073263.5958486
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\sk\LC_MESSAGES\django.mo first seen with mtime 1582073263.597849
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\sl\LC_MESSAGES\django.mo first seen with mtime 1582073263.5998397
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\sq\LC_MESSAGES\django.mo first seen with mtime 1582073263.6018586
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\sr\LC_MESSAGES\django.mo first seen with mtime 1582073263.6038282
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\sr_Latn\LC_MESSAGES\django.mo first seen with mtime 1582073263.605827
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\sv\LC_MESSAGES\django.mo first seen with mtime 1582073263.6078634
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\sw\LC_MESSAGES\django.mo first seen with mtime 1582073263.609931
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ta\LC_MESSAGES\django.mo first seen with mtime 1582073263.611943
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\te\LC_MESSAGES\django.mo first seen with mtime 1582073263.6149077
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\th\LC_MESSAGES\django.mo first seen with mtime 1582073263.6169314
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\tr\LC_MESSAGES\django.mo first seen with mtime 1582073263.6189058
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\tt\LC_MESSAGES\django.mo first seen with mtime 1582073263.6209066
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\udm\LC_MESSAGES\django.mo first seen with mtime 1582073263.624063
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\uk\LC_MESSAGES\django.mo first seen with mtime 1582073263.6259456
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\ur\LC_MESSAGES\django.mo first seen with mtime 1582073263.6282415
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\uz\LC_MESSAGES\django.mo first seen with mtime 1582073263.630908
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\vi\LC_MESSAGES\django.mo first seen with mtime 1582073263.6329074
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\zh_Hans\LC_MESSAGES\django.mo first seen with mtime 1582073263.6349437
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\auth\locale\zh_Hant\LC_MESSAGES\django.mo first seen with mtime 1582073263.6379435
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\af\LC_MESSAGES\django.mo first seen with mtime 1582073263.6700017
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ar\LC_MESSAGES\django.mo first seen with mtime 1582073263.67213
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ast\LC_MESSAGES\django.mo first seen with mtime 1582073263.6740036
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\az\LC_MESSAGES\django.mo first seen with mtime 1582073263.676037
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\be\LC_MESSAGES\django.mo first seen with mtime 1582073263.678041
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\bg\LC_MESSAGES\django.mo first seen with mtime 1582073263.6800022
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\bn\LC_MESSAGES\django.mo first seen with mtime 1582073263.6820378
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\br\LC_MESSAGES\django.mo first seen with mtime 1582073263.68511
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\bs\LC_MESSAGES\django.mo first seen with mtime 1582073263.6870024
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ca\LC_MESSAGES\django.mo first seen with mtime 1582073263.6890006
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\cs\LC_MESSAGES\django.mo first seen with mtime 1582073263.6910026
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\cy\LC_MESSAGES\django.mo first seen with mtime 1582073263.69304
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\da\LC_MESSAGES\django.mo first seen with mtime 1582073263.695041
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\de\LC_MESSAGES\django.mo first seen with mtime 1582073263.697793
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\dsb\LC_MESSAGES\django.mo first seen with mtime 1582073263.7000034
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\el\LC_MESSAGES\django.mo first seen with mtime 1582073263.702002
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\en\LC_MESSAGES\django.mo first seen with mtime 1582073263.7040386
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\en_AU\LC_MESSAGES\django.mo first seen with mtime 1582073263.7060375
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\en_GB\LC_MESSAGES\django.mo first seen with mtime 1582073263.708037
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\eo\LC_MESSAGES\django.mo first seen with mtime 1582073263.7100897
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\es\LC_MESSAGES\django.mo first seen with mtime 1582073263.71209
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\es_AR\LC_MESSAGES\django.mo first seen with mtime 1582073263.71409
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\es_CO\LC_MESSAGES\django.mo first seen with mtime 1582073263.7161229
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\es_MX\LC_MESSAGES\django.mo first seen with mtime 1582073263.7180898
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\es_VE\LC_MESSAGES\django.mo first seen with mtime 1582073263.7201269
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\et\LC_MESSAGES\django.mo first seen with mtime 1582073263.721091
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\eu\LC_MESSAGES\django.mo first seen with mtime 1582073263.7230892
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\fa\LC_MESSAGES\django.mo first seen with mtime 1582073263.7250884
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\fi\LC_MESSAGES\django.mo first seen with mtime 1582073263.7271333
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\fr\LC_MESSAGES\django.mo first seen with mtime 1582073263.7281246
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\fy\LC_MESSAGES\django.mo first seen with mtime 1582073263.7303274
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ga\LC_MESSAGES\django.mo first seen with mtime 1582073263.7323043
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\gd\LC_MESSAGES\django.mo first seen with mtime 1582073263.7343261
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\gl\LC_MESSAGES\django.mo first seen with mtime 1582073263.736304
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\he\LC_MESSAGES\django.mo first seen with mtime 1582073263.7383046
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\hi\LC_MESSAGES\django.mo first seen with mtime 1582073263.7393043
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\hr\LC_MESSAGES\django.mo first seen with mtime 1582073263.7419853
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\hsb\LC_MESSAGES\django.mo first seen with mtime 1582073263.743984
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\hu\LC_MESSAGES\django.mo first seen with mtime 1582073263.7459836
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\hy\LC_MESSAGES\django.mo first seen with mtime 1582073263.7479837
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ia\LC_MESSAGES\django.mo first seen with mtime 1582073263.7500184
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\id\LC_MESSAGES\django.mo first seen with mtime 1582073263.7519927
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\io\LC_MESSAGES\django.mo first seen with mtime 1582073263.752985
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\is\LC_MESSAGES\django.mo first seen with mtime 1582073263.7550187
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\it\LC_MESSAGES\django.mo first seen with mtime 1582073263.756982
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ja\LC_MESSAGES\django.mo first seen with mtime 1582073263.7589831
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ka\LC_MESSAGES\django.mo first seen with mtime 1582073263.7610116
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\kk\LC_MESSAGES\django.mo first seen with mtime 1582073263.7629838
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\km\LC_MESSAGES\django.mo first seen with mtime 1582073263.7649844
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\kn\LC_MESSAGES\django.mo first seen with mtime 1582073263.7664702
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ko\LC_MESSAGES\django.mo first seen with mtime 1582073263.7679834
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\lb\LC_MESSAGES\django.mo first seen with mtime 1582073263.7699838
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\lt\LC_MESSAGES\django.mo first seen with mtime 1582073263.7709851
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\lv\LC_MESSAGES\django.mo first seen with mtime 1582073263.7729836
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\mk\LC_MESSAGES\django.mo first seen with mtime 1582073263.7750196
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ml\LC_MESSAGES\django.mo first seen with mtime 1582073263.7769835
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\mn\LC_MESSAGES\django.mo first seen with mtime 1582073263.7789834
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\mr\LC_MESSAGES\django.mo first seen with mtime 1582073263.780984
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\my\LC_MESSAGES\django.mo first seen with mtime 1582073263.78302
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\nb\LC_MESSAGES\django.mo first seen with mtime 1582073263.7839973
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ne\LC_MESSAGES\django.mo first seen with mtime 1582073263.7859843
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\nl\LC_MESSAGES\django.mo first seen with mtime 1582073263.7884517
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\nn\LC_MESSAGES\django.mo first seen with mtime 1582073263.7903244
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\os\LC_MESSAGES\django.mo first seen with mtime 1582073263.7923243
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\pa\LC_MESSAGES\django.mo first seen with mtime 1582073263.7933342
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\pl\LC_MESSAGES\django.mo first seen with mtime 1582073263.7953238
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\pt\LC_MESSAGES\django.mo first seen with mtime 1582073263.797919
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\pt_BR\LC_MESSAGES\django.mo first seen with mtime 1582073263.79936
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ro\LC_MESSAGES\django.mo first seen with mtime 1582073263.8009162
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ru\LC_MESSAGES\django.mo first seen with mtime 1582073263.802915
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\sk\LC_MESSAGES\django.mo first seen with mtime 1582073263.8049147
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\sl\LC_MESSAGES\django.mo first seen with mtime 1582073263.8069148
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\sq\LC_MESSAGES\django.mo first seen with mtime 1582073263.8089163
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\sr\LC_MESSAGES\django.mo first seen with mtime 1582073263.8102496
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\sr_Latn\LC_MESSAGES\django.mo first seen with mtime 1582073263.8127003
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\sv\LC_MESSAGES\django.mo first seen with mtime 1582073263.814249
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\sw\LC_MESSAGES\django.mo first seen with mtime 1582073263.8162837
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ta\LC_MESSAGES\django.mo first seen with mtime 1582073263.817247
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\te\LC_MESSAGES\django.mo first seen with mtime 1582073263.8192475
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\th\LC_MESSAGES\django.mo first seen with mtime 1582073263.8210454
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\tr\LC_MESSAGES\django.mo first seen with mtime 1582073263.8230023
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\tt\LC_MESSAGES\django.mo first seen with mtime 1582073263.8250022
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\udm\LC_MESSAGES\django.mo first seen with mtime 1582073263.8270361
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\uk\LC_MESSAGES\django.mo first seen with mtime 1582073263.8280027
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\ur\LC_MESSAGES\django.mo first seen with mtime 1582073263.8300846
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\vi\LC_MESSAGES\django.mo first seen with mtime 1582073263.8320918
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\zh_Hans\LC_MESSAGES\django.mo first seen with mtime 1582073263.8340929
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\contenttypes\locale\zh_Hant\LC_MESSAGES\django.mo first seen with mtime 1582073263.8360927
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\af\LC_MESSAGES\django.mo first seen with mtime 1582073264.9298615
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ar\LC_MESSAGES\django.mo first seen with mtime 1582073264.93226
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ast\LC_MESSAGES\django.mo first seen with mtime 1582073264.9338598
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\az\LC_MESSAGES\django.mo first seen with mtime 1582073264.9359157
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\be\LC_MESSAGES\django.mo first seen with mtime 1582073264.93786
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\bg\LC_MESSAGES\django.mo first seen with mtime 1582073264.9388995
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\bn\LC_MESSAGES\django.mo first seen with mtime 1582073264.9409275
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\br\LC_MESSAGES\django.mo first seen with mtime 1582073264.9429157
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\bs\LC_MESSAGES\django.mo first seen with mtime 1582073264.9449263
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ca\LC_MESSAGES\django.mo first seen with mtime 1582073264.946051
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\cs\LC_MESSAGES\django.mo first seen with mtime 1582073264.9478917
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\cy\LC_MESSAGES\django.mo first seen with mtime 1582073264.9499261
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\da\LC_MESSAGES\django.mo first seen with mtime 1582073264.9518964
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\de\LC_MESSAGES\django.mo first seen with mtime 1582073264.9539275
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\dsb\LC_MESSAGES\django.mo first seen with mtime 1582073264.9559176
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\el\LC_MESSAGES\django.mo first seen with mtime 1582073264.9578931
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\en\LC_MESSAGES\django.mo first seen with mtime 1582073264.9598918
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\en_AU\LC_MESSAGES\django.mo first seen with mtime 1582073264.9619565
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\en_GB\LC_MESSAGES\django.mo first seen with mtime 1582073264.9633663
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\eo\LC_MESSAGES\django.mo first seen with mtime 1582073264.9649277
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\es\LC_MESSAGES\django.mo first seen with mtime 1582073264.9669328
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\es_AR\LC_MESSAGES\django.mo first seen with mtime 1582073264.9688916
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\es_CO\LC_MESSAGES\django.mo first seen with mtime 1582073264.9710047
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\es_MX\LC_MESSAGES\django.mo first seen with mtime 1582073264.9728944
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\es_VE\LC_MESSAGES\django.mo first seen with mtime 1582073264.9748914
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\et\LC_MESSAGES\django.mo first seen with mtime 1582073264.9768918
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\eu\LC_MESSAGES\django.mo first seen with mtime 1582073264.97889
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\fa\LC_MESSAGES\django.mo first seen with mtime 1582073264.980151
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\fi\LC_MESSAGES\django.mo first seen with mtime 1582073264.9821856
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\fr\LC_MESSAGES\django.mo first seen with mtime 1582073264.984147
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\fy\LC_MESSAGES\django.mo first seen with mtime 1582073264.986148
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ga\LC_MESSAGES\django.mo first seen with mtime 1582073264.9871495
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\gd\LC_MESSAGES\django.mo first seen with mtime 1582073264.9894757
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\gl\LC_MESSAGES\django.mo first seen with mtime 1582073264.9912589
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\he\LC_MESSAGES\django.mo first seen with mtime 1582073264.9934814
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\hi\LC_MESSAGES\django.mo first seen with mtime 1582073264.994898
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\hr\LC_MESSAGES\django.mo first seen with mtime 1582073264.996812
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\hsb\LC_MESSAGES\django.mo first seen with mtime 1582073264.998812
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\hu\LC_MESSAGES\django.mo first seen with mtime 1582073264.9998648
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\hy\LC_MESSAGES\django.mo first seen with mtime 1582073265.0018716
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ia\LC_MESSAGES\django.mo first seen with mtime 1582073265.0038407
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\id\LC_MESSAGES\django.mo first seen with mtime 1582073265.0058432
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\io\LC_MESSAGES\django.mo first seen with mtime 1582073265.0068433
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\is\LC_MESSAGES\django.mo first seen with mtime 1582073265.0088837
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\it\LC_MESSAGES\django.mo first seen with mtime 1582073265.011367
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ja\LC_MESSAGES\django.mo first seen with mtime 1582073265.0134048
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ka\LC_MESSAGES\django.mo first seen with mtime 1582073265.0183768
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\kab\LC_MESSAGES\django.mo first seen with mtime 1582073265.0227857
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\kk\LC_MESSAGES\django.mo first seen with mtime 1582073265.0278716
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\km\LC_MESSAGES\django.mo first seen with mtime 1582073265.0328732
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\kn\LC_MESSAGES\django.mo first seen with mtime 1582073265.037352
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ko\LC_MESSAGES\django.mo first seen with mtime 1582073265.0412703
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\lb\LC_MESSAGES\django.mo first seen with mtime 1582073265.0463803
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\lt\LC_MESSAGES\django.mo first seen with mtime 1582073265.0510602
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\lv\LC_MESSAGES\django.mo first seen with mtime 1582073265.0551088
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\mk\LC_MESSAGES\django.mo first seen with mtime 1582073265.0591054
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ml\LC_MESSAGES\django.mo first seen with mtime 1582073265.0633414
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\mn\LC_MESSAGES\django.mo first seen with mtime 1582073265.0662706
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\mr\LC_MESSAGES\django.mo first seen with mtime 1582073265.06931
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\my\LC_MESSAGES\django.mo first seen with mtime 1582073265.071548
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\nb\LC_MESSAGES\django.mo first seen with mtime 1582073265.0745845
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ne\LC_MESSAGES\django.mo first seen with mtime 1582073265.0765865
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\nl\LC_MESSAGES\django.mo first seen with mtime 1582073265.0785456
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\nn\LC_MESSAGES\django.mo first seen with mtime 1582073265.0808759
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\os\LC_MESSAGES\django.mo first seen with mtime 1582073265.0828757
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\pa\LC_MESSAGES\django.mo first seen with mtime 1582073265.0858822
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\pl\LC_MESSAGES\django.mo first seen with mtime 1582073265.0879056
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\pt\LC_MESSAGES\django.mo first seen with mtime 1582073265.090303
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\pt_BR\LC_MESSAGES\django.mo first seen with mtime 1582073265.094089
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ro\LC_MESSAGES\django.mo first seen with mtime 1582073265.096218
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ru\LC_MESSAGES\django.mo first seen with mtime 1582073265.0990918
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\sk\LC_MESSAGES\django.mo first seen with mtime 1582073265.1014972
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\sl\LC_MESSAGES\django.mo first seen with mtime 1582073265.104534
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\sq\LC_MESSAGES\django.mo first seen with mtime 1582073265.1065352
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\sr\LC_MESSAGES\django.mo first seen with mtime 1582073265.1095562
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\sr_Latn\LC_MESSAGES\django.mo first seen with mtime 1582073265.1124976
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\sv\LC_MESSAGES\django.mo first seen with mtime 1582073265.1154974
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\sw\LC_MESSAGES\django.mo first seen with mtime 1582073265.1174977
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ta\LC_MESSAGES\django.mo first seen with mtime 1582073265.1204977
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\te\LC_MESSAGES\django.mo first seen with mtime 1582073265.1225376
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\th\LC_MESSAGES\django.mo first seen with mtime 1582073265.1255014
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\tr\LC_MESSAGES\django.mo first seen with mtime 1582073265.1285036
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\tt\LC_MESSAGES\django.mo first seen with mtime 1582073265.1312306
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\udm\LC_MESSAGES\django.mo first seen with mtime 1582073265.1334956
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\uk\LC_MESSAGES\django.mo first seen with mtime 1582073265.136237
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\ur\LC_MESSAGES\django.mo first seen with mtime 1582073265.1399055
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\uz\LC_MESSAGES\django.mo first seen with mtime 1582073265.1419122
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\vi\LC_MESSAGES\django.mo first seen with mtime 1582073265.1448717
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\zh_Hans\LC_MESSAGES\django.mo first seen with mtime 1582073265.1478703
+File C:\Projects\DjangoTest\env\lib\site-packages\django\contrib\sessions\locale\zh_Hant\LC_MESSAGES\django.mo first seen with mtime 1582073265.150048
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\models\sql\compiler.py first seen with mtime 1582073265.6555526
+File C:\Projects\DjangoTest\hello_django\hello_django\wsgi.py first seen with mtime 1582073412.0190618
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1582073264.5869315
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\middleware\common.py first seen with mtime 1582073265.733354
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\templatetags\admin_modify.py first seen with mtime 1582073262.9928472
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\graph.py first seen with mtime 1582073265.5508862
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\migrations\__init__.py first seen with mtime 1582073263.8402722
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\backends.py first seen with mtime 1582073263.272081
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py first seen with mtime 1582073262.9918458
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1582073265.7630122
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\__init__.py first seen with mtime 1582073263.6580029
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\0002_alter_permission_name_max_length.py first seen with mtime 1582073263.6449478
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\migrations\__init__.py first seen with mtime 1582073262.8408072
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\migrations\0002_remove_content_type_name.py first seen with mtime 1582073263.8402722
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1582073263.646909
+File C:\Projects\DjangoTest\hello_django\web_app\migrations\0002_auto_20200222_1454.py first seen with mtime 1582404870.0110235
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\views\main.py first seen with mtime 1582073262.9978454
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\loader.py first seen with mtime 1582073265.551909
+File C:\Projects\DjangoTest\hello_django\web_app\migrations\0001_initial.py first seen with mtime 1582093054.0265474
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\templatetags\base.py first seen with mtime 1582073262.9948456
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\recorder.py first seen with mtime 1582073265.556241
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1582073264.9248612
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1582073265.7609766
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1582073264.9238594
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\stringprep.py first seen with mtime 1576733202.0
+File C:\Users\Zuhaib Nassir\AppData\Local\Programs\Python\Python38-32\Lib\encodings\idna.py first seen with mtime 1576733202.0
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1582073265.3829734
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\middleware.py first seen with mtime 1582073263.2807684
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\contenttypes\migrations\0001_initial.py first seen with mtime 1582073263.839091
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\0009_alter_user_last_name_max_length.py first seen with mtime 1582073263.655004
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\0001_initial.py first seen with mtime 1582073263.6439068
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\0011_update_proxy_permissions.py first seen with mtime 1582073263.6570084
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py first seen with mtime 1582073262.8388143
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1582073264.9213073
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\migrations\__init__.py first seen with mtime 1582073265.1550603
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\templatetags\log.py first seen with mtime 1582073262.9952078
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1582073265.7600155
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\0004_alter_user_username_opts.py first seen with mtime 1582073263.6479528
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\middleware\security.py first seen with mtime 1582073265.7373195
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\0006_require_contenttypes_0002.py first seen with mtime 1582073263.6510055
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\migrations\0003_logentry_add_action_flag_choices.py first seen with mtime 1582073262.8398323
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\backends\db.py first seen with mtime 1582073264.9274347
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\admin\migrations\0002_logentry_remove_auto_add.py first seen with mtime 1582073262.8388143
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\db\migrations\executor.py first seen with mtime 1582073265.5498104
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\0010_alter_group_name_max_length.py first seen with mtime 1582073263.656085
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\0008_alter_user_username_max_length.py first seen with mtime 1582073263.6540036
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\0005_alter_user_last_login_null.py first seen with mtime 1582073263.6489103
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\middleware\clickjacking.py first seen with mtime 1582073265.7323527
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\migrations\0007_alter_validators_add_error_messages.py first seen with mtime 1582073263.6523914
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\migrations\0001_initial.py first seen with mtime 1582073265.1543887
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1582073264.9218602
+File C:\Projects\DjangoTest\hello_django\web_app\migrations\__init__.py first seen with mtime 1582086967.1829906
+(0.000) SELECT "web_app_recipe"."id", "web_app_recipe"."name", "web_app_recipe"."intro", "web_app_recipe"."description", "web_app_recipe"."img", "web_app_recipe"."price", "web_app_recipe"."active" FROM "web_app_recipe"; args=()
+"GET /categories HTTP/1.1" 200 15061
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/cat-feature/small-1.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/cat-feature/small-3.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/cat-feature/small-2.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /img/cat-feature/small-1.jpg
+Not Found: /img/cat-feature/small-3.jpg
+Not Found: /img/cat-feature/small-2.jpg
+"GET /img/cat-feature/small-1.jpg HTTP/1.1" 404 2488
+"GET /img/cat-feature/small-3.jpg HTTP/1.1" 404 2488
+"GET /img/cat-feature/small-2.jpg HTTP/1.1" 404 2488
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/cat-feature/small-4.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/cat-feature/small-5.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/cat-feature/small-6.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /img/cat-feature/small-4.jpg
+Not Found: /img/cat-feature/small-5.jpg
+Not Found: /img/cat-feature/small-6.jpg
+"GET /img/cat-feature/small-5.jpg HTTP/1.1" 404 2488
+"GET /img/cat-feature/small-4.jpg HTTP/1.1" 404 2488
+"GET /img/cat-feature/small-6.jpg HTTP/1.1" 404 2488
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/cat-feature/small-7.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/footer-logo.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /img/cat-feature/small-7.jpg
+Not Found: /img/footer-logo.png
+"GET /img/cat-feature/small-7.jpg HTTP/1.1" 404 2488
+"GET /img/footer-logo.png HTTP/1.1" 404 2464
+"GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1695
+"GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1701
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/cat-feature/big-1.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /img/cat-feature/big-1.jpg
+"GET /img/cat-feature/big-1.jpg HTTP/1.1" 404 2482
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/cat-feature/big-2.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /img/cat-feature/big-2.jpg
+"GET /img/cat-feature/big-2.jpg HTTP/1.1" 404 2482
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/cat-feature/big-3.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /img/cat-feature/big-3.jpg
+"GET /img/cat-feature/big-3.jpg HTTP/1.1" 404 2482
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\core\handlers\base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\urls\resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'web_app.urls' from 'C:\\Projects\\DjangoTest\\hello_django\\web_app\\urls.py'> (None:None) ''>, <URLPattern 'categories' [name='categories']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'img/cat-feature/big-4.jpg'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Projects\DjangoTest\env\lib\site-packages\django\template\base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /img/cat-feature/big-4.jpg
+"GET /img/cat-feature/big-4.jpg HTTP/1.1" 404 2482
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1582073265.7579765
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\storage\fallback.py first seen with mtime 1582073264.593145
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\storage\base.py first seen with mtime 1582073264.591144
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\storage\cookie.py first seen with mtime 1582073264.5926168
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1582073265.7561293
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\staticfiles\storage.py first seen with mtime 1582073265.36615
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1582073265.7547152
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\storage\session.py first seen with mtime 1582073264.5941575
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1582073265.7550156
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\context_processors.py first seen with mtime 1582073264.5858936
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\messages\utils.py first seen with mtime 1582073264.5878937
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\template\context_processors.py first seen with mtime 1582073265.7412791
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\sessions\serializers.py first seen with mtime 1582073264.9238594
+File C:\Projects\DjangoTest\env\Lib\site-packages\django\contrib\auth\context_processors.py first seen with mtime 1582073263.2760801
+File C:\Projects\DjangoTest\hello_django\hello_django\settings.py previous mtime: 1582409125.6991842, current mtime: 1582409419.718717
+C:\Projects\DjangoTest\hello_django\hello_django\settings.py notified as changed. Signal results: [(<function translation_file_changed at 0x03BEC0B8>, None)].
+C:\Projects\DjangoTest\hello_django\hello_django\settings.py changed, reloading.

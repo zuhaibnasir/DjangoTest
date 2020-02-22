@@ -83,12 +83,12 @@
     <section class="recipe-section spad">
         <div class="container">
             <div class="row">
-            {% for recipe in recipies %}
+            {% for recipe in recipies %}           
                 <div class="col-lg-4 col-sm-6">
                     <div class="recipe-item">
                         <a href="#"><img src="{% static 'img/recipe/recipe-1.jpg' %}" alt=""></a>
                         <div class="ri-text">
-                            <div class="cat-name">Desert</div>
+                            <div class="cat-name">{{recipe.category.all.0.name}}</div>
                             <a href="#">
                                 <h4>{{recipe.name}}</h4>
                             </a>
